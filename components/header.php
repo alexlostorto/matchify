@@ -4,10 +4,15 @@
 if (basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
     // The file is being accessed directly
     http_response_code(403);
-    header("Location: /flashi/403/");
+    header("Location: /403/");
     exit;
 }
 // PREVENT DIRECT ACCESS
+
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/utils/paths.php";
+include_once($path); 
+$PATHS = new Paths();
 
 ?>
 
@@ -28,11 +33,11 @@ if (basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
         <meta name="author" content="<?= $seo_author ?>" />
 
         <!-- Icons -->
-        <link rel="icon" type="image/x-icon" href="/flashi/assets/icons/favicon.png">
-        <link rel="manifest" href="/flashi/site.webmanifest">
+        <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.png">
+        <link rel="manifest" href="/site.webmanifest">
 
         <!-- Styles -->
-        <link href="/hacknotts/assets/lib/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/lib/bootstrap.min.css" rel="stylesheet">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 

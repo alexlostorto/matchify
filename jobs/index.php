@@ -332,7 +332,7 @@ function getCVData() {
 }
 
 async function createCV() {
-    let url = '../scripts/openAI.php';
+    let url = '../api/openAI.php';
     
     const data = {
         "cvData": getCVData(),
