@@ -21,7 +21,7 @@
 
 ## 💡 Inspiration
 
-Our inspiration for Matchify came from witnessing the frustration that job seekers experience when applying for positions. We wanted to create a solution that simplifies the process of customizing CVs for specific job requirements and empowers individuals in their job search.
+Observing the challenges faced by job seekers during the application process inspired us to create Matchify. Our goal was to develop a solution that streamlines the customization of CVs according to specific job requirements, empowering individuals in their pursuit of employment.
 
 ## 🤖 What it does
 
