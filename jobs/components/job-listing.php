@@ -1,3 +1,16 @@
+<?php
+
+// PREVENT DIRECT ACCESS
+if (basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
+    // The file is being accessed directly
+    http_response_code(403);
+    header("Location: /403/");
+    exit;
+}
+// PREVENT DIRECT ACCESS
+
+?>
+
 <div class="job d-flex flex-column align-items-center justify-content-between">
     <section class="main-job-data d-flex flex-row align-items-center justify-content-between w-100">
         <section class="job-data">
