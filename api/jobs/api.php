@@ -1,7 +1,9 @@
 <?php
 
 // Include API key
-include('../secrets.php');
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/secrets.php";
+include_once($path); 
 
 // Check if the request method is POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

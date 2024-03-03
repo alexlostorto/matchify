@@ -1,7 +1,9 @@
 <?php
 
 // Include API key
-include('../secrets.php');
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/secrets.php";
+include_once($path); 
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
