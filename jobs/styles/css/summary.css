@@ -1,0 +1,62 @@
+.summary {
+  display: none;
+  z-index: 100;
+  background-color: var(--text-secondary);
+  margin-top: 6rem;
+}
+.summary h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.summary ul {
+  margin-top: 2.5rem;
+}
+.summary ul li {
+  margin-bottom: 1rem;
+}
+.summary ul li::marker {
+  color: var(--accent-light);
+}
+.summary > section {
+  width: clamp(50rem, 60%, 100rem);
+}
+
+#download-button {
+  margin-top: 1rem;
+  color: var(--text-secondary);
+  background-color: var(--accent-light);
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+}
+#download-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+#download-button svg {
+  margin-bottom: 0.2rem;
+}
+#download-button svg path {
+  fill: var(--text-secondary);
+}
+#download-button #go-back-button {
+  margin-left: 1rem;
+  color: var(--grey);
+  padding: 0.6rem 1.5rem;
+  border: 2px solid var(--grey);
+  border-radius: 10px;
+}
+#download-button #go-back-button:hover {
+  cursor: pointer;
+  color: var(--text-secondary);
+  background-color: var(--grey);
+}
+
+.cv {
+  background-image: url(../assets/images/resume.webp);
+  background-size: cover;
+  margin-top: 2rem;
+  width: 100%;
+  height: 70rem;
+  border: 4px dashed var(--light-grey);
+  margin-bottom: 5rem;
+}/*# sourceMappingURL=summary.css.map */

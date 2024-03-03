@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Inder&family=Fredoka&display=swap");
+html,
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+#go-back-button {
+  top: 6.5rem;
+  left: 5rem;
+  font-weight: 500;
+  color: var(--accent-light);
+}
+#go-back-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+#go-back-button svg {
+  margin-bottom: 0.1rem;
+  margin-right: 0.5rem;
+}
+
+.main-view {
+  margin-top: 6rem;
+  margin-left: 1rem;
+  width: clamp(50rem, 60%, 100rem);
+}
+.main-view h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.search {
+  margin-top: 3rem;
+  margin-right: 1.5rem;
+}
+
+#search-form {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  gap: 1rem;
+}
+#search-form label {
+  margin-bottom: 0.3rem;
+}
+#search-form input {
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--grey);
+  border-radius: 10px;
+}
+#search-form button {
+  margin-top: 1.7rem;
+  color: var(--text-secondary);
+  background-color: var(--accent-light);
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+}
+#search-form button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.filters {
+  gap: 1rem;
+}
+.filters .dropdown {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--grey);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.filters .dropdown svg {
+  margin-bottom: 0.2rem;
+}
+.filters .dropdown svg path {
+  fill: var(--grey) !important;
+}
+
+.job-listings {
+  margin-top: 2rem;
+  gap: 1rem;
+  overflow-y: scroll;
+  height: 35%;
+  padding-right: 0.3rem;
+}
+
+#loading-screen {
+  z-index: 999;
+  background-color: var(--background-light);
+  gap: 1rem;
+  top: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}/*# sourceMappingURL=styles.css.map */

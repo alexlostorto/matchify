@@ -38,31 +38,7 @@ $PATHS = new Paths();
 
         <!-- Styles -->
         <link href="/assets/lib/bootstrap.min.css" rel="stylesheet">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
-            :root {
-                --primary: #FFFFFF;
-                --secondary: #6C78DC;
-                --tertiary: #6135FE;
-                --accent: #5832DD;
-                --grey: #4B4B4B;
-                --light-grey: #DADADA;
-                --lighter-grey: #E5E5E5;
-            }
-
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family: 'Poppins', sans-serif;
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        </style>
+        <link href="/styles/css/header.css" rel="stylesheet">
 
         <!-- Hotjar -->
         <script defer>

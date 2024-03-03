@@ -1,0 +1,207 @@
+html,
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+}
+
+.side-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 2.5rem 0 2.5rem 4rem;
+  width: 21rem;
+  height: 100%;
+  background-color: var(--accent-light);
+}
+.side-menu .logo {
+  color: var(--text-secondary);
+  font-weight: 600;
+  margin-bottom: 6rem;
+  font-size: 1.2rem;
+}
+.side-menu .links > div {
+  padding: 0.8rem 0.5rem;
+  border-radius: 10px;
+}
+.side-menu .links > div:hover {
+  cursor: pointer;
+  background-color: var(--accent-base);
+}
+.side-menu .links div:nth-child(1) {
+  background-color: var(--accent-base);
+}
+.side-menu .links a {
+  color: var(--text-secondary);
+}
+.side-menu .links path {
+  fill: var(--text-secondary) !important;
+}
+.side-menu .links svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.main-view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2.5rem 6rem;
+}
+.main-view .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.main-view .profile:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.main-view .profile:hover svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.main-view .profile svg {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.main-view .message {
+  font-weight: 500;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+  border: 2px solid var(--light-grey);
+  margin-top: 4rem;
+}
+.main-view .cv-section {
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: var(--lighter-grey);
+  padding: 2rem;
+}
+.main-view .cv-section h1 {
+  font-weight: 600;
+}
+
+#sort-by {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--grey);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 10px;
+  font-weight: 500;
+}
+#sort-by svg {
+  margin-bottom: 0.2rem;
+}
+#sort-by svg path {
+  fill: var(--grey) !important;
+}
+
+#upload-button {
+  top: 2rem;
+  right: 2rem;
+  color: var(--text-secondary);
+  background-color: var(--accent-light);
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+}
+#upload-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.cv-container {
+  margin-top: 2rem;
+}
+.cv-container .cv {
+  padding: 3rem;
+  width: 20rem;
+  height: 28rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 4px dashed var(--light-grey);
+  background: var(--text-secondary);
+  color: var(--grey);
+  opacity: 0.6;
+  background-size: contain;
+}
+.cv-container .cv svg {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+.cv-container .cv svg path {
+  fill: var(--grey);
+  opacity: 0.6;
+}
+.cv-container .cv.unuploaded:hover {
+  opacity: 0.6 !important;
+  cursor: pointer;
+}
+.cv-container .cv.unuploaded .overlay {
+  display: none;
+}
+.cv-container .cv .overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  gap: 1rem;
+}
+.cv-container .cv .overlay button {
+  width: 12rem;
+  color: var(--text-secondary);
+  background-color: var(--accent-light);
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+}
+.cv-container .cv .overlay button:hover {
+  background-color: var(--accent-base);
+  cursor: pointer;
+}
+.cv-container .cv .overlay span {
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  background-color: var(--text-secondary);
+  font-weight: 600;
+}/*# sourceMappingURL=styles.css.map */

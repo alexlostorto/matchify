@@ -1,0 +1,64 @@
+.job {
+  padding: 1rem;
+  border: 2px solid var(--grey);
+  border-radius: 10px;
+}
+.job button {
+  margin: 1.7rem 0 0 0;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: var(--text-secondary);
+  background-color: var(--accent-light);
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+}
+.job button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.job h3 {
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+  color: var(--accent-light);
+}
+.job h4 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.job .stats {
+  gap: 1.5rem;
+}
+.job .stats div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.2rem;
+}
+.job .job-description {
+  display: none;
+}
+.job .job-description h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.job .show-description {
+  width: 100%;
+  margin-top: 0.6rem;
+}
+.job .show-description:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.job .show-description svg {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}/*# sourceMappingURL=job.css.map */

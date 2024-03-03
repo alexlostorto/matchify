@@ -1,0 +1,36 @@
+:root {
+    // Background Colors
+    --background-light: #FFFFFF;
+    --background-base: #B39EFE;
+    --background-dark: #8D6FF6;
+
+    // Text Colors
+    --text-primary: #000000; // Black for better contrast
+    --text-secondary: #FFFFFF; // White for dark backgrounds
+
+    // Accent Colors
+    --accent-light: #6135FE;
+    --accent-base: #5832DD;
+    --accent-dark: #4826C1;
+
+    // Grey Colors
+    --grey: #4B4B4B;
+    --light-grey: #DADADA;
+    --lighter-grey: #E5E5E5;
+}
+
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//         /* Dark Mode Colors */
+//         --background-light: #FCFCFC !important;
+//         --background-base: #E7E7E7 !important;
+//         --background-dark: #CBCBCB !important;
+        
+//         --text-primary: #000000 !important;
+//         --text-secondary: #FFFFFF !important;
+        
+//         --accent-light: #B6B6B6 !important;
+//         --accent-base: #878787 !important;
+//         --accent-dark: #393939 !important;
+//     }
+// }

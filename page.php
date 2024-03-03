@@ -57,7 +57,7 @@ include('../components/header.php');
 <section class="w-100 h-100">
     <h1>Transform Your CV to</h1>
     <h1>Perfectly Match with</h1>
-    <h1 style="">Your Dream Job</h1>
+    <h1>Your Dream Job</h1>
 </section>
 
 <?php include('../components/footer.php'); ?>
