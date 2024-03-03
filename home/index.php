@@ -361,11 +361,11 @@ async function convertToText() {
     const fileExtension = getFileExtension(fileName);
 
     if (fileExtension == 'doc') {
-        url = '../api/convertDocToText.php';
+        url = '../api/convert/docToText.php';
     } else if (fileExtension == 'docx') {
-        url = '../api/convertDocxToText.php';
+        url = '../api/convert/docxToText.php';
     } else if (fileExtension == 'pdf') {
-        url = '../api/convertPDFToText.php';
+        url = '../api/convert/pdfToText.php';
     } else {
         console.log("File extension not supported");
         return;

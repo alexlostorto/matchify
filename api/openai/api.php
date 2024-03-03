@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo json_encode(['error' => 'Method not allowed']);
 }
 
-function makeAPICall($cvData,$listingData) {
+function makeAPICall($cvData, $listingData) {
     global $OPENAI_KEY;
 
     $api_url = 'https://api.openai.com/v1/engines/davinci/completions';
